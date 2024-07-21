@@ -70,7 +70,7 @@ module.exports = {
     const totalPages = Math.ceil((files.length - 1) / pageSize); // Subtract 1 for help.js
     const currentPage = Math.min(Math.ceil(endIdx / pageSize), totalPages);
 
-    let helpMessage = `𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 𝗔𝗩𝗔𝗜𝗟 𝗖𝗠𝗗 𝗟𝗜𝗦𝗬
+    let helpMessage = `𝗔𝗦𝗦𝗜𝗦𝗧𝗔𝗡𝗧 𝗔𝗩𝗔𝗜𝗟 𝗖𝗠𝗗 𝗟𝗜𝗦𝗧
 (𝖯𝖠𝖦𝖤 ${currentPage}/${totalPages}):\n${formattedCommands}`;
 
     // Add instructions for navigating to the next page without {pn}
