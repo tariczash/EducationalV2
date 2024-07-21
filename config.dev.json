@@ -1,6 +1,6 @@
 {
   "facebookAccount": {
-    "email": "",
+    "email": "Y",
     "password": "",
     "2FASecret": "",
     "i_user": "",
@@ -12,24 +12,20 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "nickNameBot": "baby mo",
-  "prefix": "—",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
-  "adminBot": [],
+  "adminBot": [
+    "100015626988509"
+  ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
-    "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
+    "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "whiteListModeThread": {
-    "enable": false,
-    "whiteListThreadIds": [],
-    "notes": "if you enable this feature, only the thread in the whiteListThreadIds list can use the bot",
-    "how_it_work": "if you enable both whiteListMode and whiteListModeThread, the system will check if the user is in whiteListIds, then check if the thread is in whiteListThreadIds, if one of the conditions is true, the user can use the bot"
-  },
+  "nickNameBot": "baby mo",
+  "prefix": "—",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
@@ -37,7 +33,7 @@
     "autoRefreshThreadInfoFirstTime": true,
     "notes": "(1) type selects 'json' or 'sqlite' or 'mongodb'. If you choose mongodb, enter uri connect mongodb in the uriMongodb section, instructions to get uri connect mongodb at: https://youtu.be/z1f9urHW5xY. I recommend using 'mongodb' or 'sqlite', json is not recommended because it is not stable. (2) when you set autoSyncWhenStart to true, the bot will automatically synchronize the data in the database when starting the bot, this will make the bot start slower. (3) when you set autoRefreshThreadInfoFirstTime to true, the bot will automatically refresh the thread information when get first message from the thread since starting the bot"
   },
-  "timeZone": "Asia/Manila",
+  "timeZone": "Asia/Ho_Chi_Minh",
   "credentials": {
     "gmailAccount": {
       "email": "kramn1205@gmail.com",
@@ -66,7 +62,7 @@
     }
   },
   "autoRestart": {
-    "time": null,
+    "time": false,
     "notes": "you can set time is interval with milisecond or cron time, example: 1000, 10000, 60000, 3600000, 86400000, 0 0 * * *,... docs: https://www.npmjs.com/package/node-cron. If you set time is 0 or false or null, the bot will not auto restart"
   },
   "autoUptime": {
@@ -143,3 +139,4 @@
     "notes": "Document here: https://github.com/ntkhang03/fb-chat-api/blob/master/DOCS.md#apisetoptionsoptions "
   }
 }
+  
