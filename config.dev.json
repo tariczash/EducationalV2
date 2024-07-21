@@ -12,8 +12,8 @@
   "antiInbox": false,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "nickNameBot": "BOT NICKNAME",
-  "prefix": "PREFIX HERE",
+  "nickNameBot": "baby mo",
+  "prefix": "—",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
