@@ -1,1 +1,28 @@
-CLEAR MO ITO AND PASTE MO DITO YUNG APPSATE MO
+[{
+	"key": "datr",
+	"value": "dDGdZj7AGSiasSL5tRfhrZi8",
+	"path": "/",
+	"hostOnly": false,
+	"domain": ".facebook.com",
+	"creation": "2024-07-21T16:12:32.550Z",
+	"lastAccessed": "2024-07-21T16:12:32.550Z"
+	},
+	{
+	"key": "sb",
+	"value": "dDGdZhzT4aPk-U_OXplJPKG3",
+	"path": "/",
+	"hostOnly": false,
+	"domain": ".facebook.com",
+	"creation": "2024-07-21T16:12:32.550Z",
+	"lastAccessed": "2024-07-21T16:12:32.550Z"
+	},
+	{
+	"key": "m_pixel_ratio",
+	"value": "2",
+	"path": "/",
+	"hostOnly": false,
+	"domain": ".facebook.com",
+	"creation": "2024-07-21T16:12:32.550Z",
+	"lastAccessed": "2024-07-21T16:12:32.550Z"
+	},
+	{
