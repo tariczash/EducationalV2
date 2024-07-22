@@ -25,7 +25,7 @@ module.exports = {
   onStart: async function ({ api, args, event }) {
     const command = args[0];
 
-    if (command === "gen") {
+    if (command === "create") {
       try {
         const response = await axios.get("https://for-devs.onrender.com/api/mail/gen?apikey=api1");
         const email = response.data.email;
